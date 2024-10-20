@@ -1,6 +1,4 @@
-package users
-
-import "github.com/andrei-kozel/owly-common/roles"
+package domain
 
 type User struct {
 	Guid      string
@@ -8,5 +6,5 @@ type User struct {
 	Password  string
 	FirstName string
 	LastName  string
-	Roles     []roles.Role
+	Roles     []Role
 }

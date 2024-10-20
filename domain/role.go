@@ -1,4 +1,4 @@
-package roles
+package domain
 
 type Role struct {
 	Guid        string
